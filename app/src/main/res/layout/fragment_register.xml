@@ -4,76 +4,40 @@
     android:layout_height="match_parent"
     tools:context="adisorn.sungkhatip.bsru.ac.th.RegisterFragment">
 
-</LinearLayout>
-<LinearLayout
-android:orientation="vertical"
-android:layout_width="match_parent"
-android:layout_height="match_parent">
 
-<!--Toolbar-->
-<android.support.v7.widget.Toolbar
-    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-    android:background="@color/colorPrimary"
-    android:layout_width="match_parent"
-    android:layout_height="?attr/actionBarSize"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-<!--Content-->
-<LinearLayout
-    android:layout_margin="40dp"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"/>
+    <!--Toolbar-->
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbarRegister"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"/>
 
-<!--Avata-->
-<ImageView
-    android:layout_marginBottom="30dp"
-    android:src="@drawable/avata"
-    android:layout_width="match_parent"
-    android:layout_height="200dp" />
-
-<!--Name-->
-<LinearLayout
-    android:orientation="horizontal"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"/>
+    <!--Content-->
+        <LinearLayout
+            android:layout_margin="40dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
 
-<!--TextFeild-->
-<EditText
-    android:hint="Name :"
-    android:inputType="text"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content" />
+        <!--Name-->
+            <EditText
+                android:id="@+id/edtName"
+                android:hint="name"
+                android:inputType="text"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
 
-
-<!--User-->
-<LinearLayout
-    android:orientation="horizontal"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"/>
-
-<!--TextFeild-->
-<EditText
-    android:hint="User :"
-    android:inputType="text"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content" />
-
-
-
-<!--Password-->
-<LinearLayout
-    android:orientation="horizontal"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"/>
-
-
-<!--TextFeild-->
-<EditText
-    android:hint="Password :"
-    android:inputType="text"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content" />
-
-</LinearLayout>
+        <!--Gender-->
+            <TextView
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
 
