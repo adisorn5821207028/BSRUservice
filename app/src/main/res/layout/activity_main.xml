@@ -7,9 +7,17 @@
     tools:context="adisorn.sungkhatip.bsru.ac.th.MainActivity">
 
     <!--content of Fragment-->
+
+    <ImageView
+        android:src="@drawable/bg10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
     <FrameLayout
         android:id="@+id/layoutMainFragmant"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
+
+
 
 </android.support.constraint.ConstraintLayout>
